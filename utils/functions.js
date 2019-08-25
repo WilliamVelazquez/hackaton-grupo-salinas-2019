@@ -47,3 +47,10 @@ export const scrollToId = (elementId, offset=0) => {
     });
   }
 }
+
+export const getIndexOf = (value, obj) => {
+  // console.log(value, obj)
+  let index = obj.findIndex(item => item.id == value);
+  // console.log("---",index)
+  return index;
+}

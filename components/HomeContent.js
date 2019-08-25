@@ -2,13 +2,18 @@ import React from 'react';
 
 // import UserImageCard from './ui/UserImageCard';
 import SimplePanel from './ui/SimplePanel';
+import MotoHero from './sections/MotoHero';
 
 function HomeContent(props) {
+  
+
 	return(
 		<div>
       {/* <UserImageCard imgSrc={"/static/Logo_381.png"} imgAltText={"Italika Photo"} >
         <p>El motor de tu vida</p>
       </UserImageCard> */}
+
+      <MotoHero />
 
       <SimplePanel backgroundColor="#020f2b" color="#fff">
         <img
@@ -24,7 +29,7 @@ function HomeContent(props) {
       
       <style jsx global>{`
         body{
-          margin-top: 70px;
+          margin-top: 0px;
         }
       `}</style>
       <style jsx>{`
