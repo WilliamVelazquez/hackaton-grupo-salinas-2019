@@ -5,8 +5,6 @@ import SimplePanel from './ui/SimplePanel';
 import MotoHero from './sections/MotoHero';
 
 function HomeContent(props) {
-  
-
 	return(
 		<div>
       {/* <UserImageCard imgSrc={"/static/Logo_381.png"} imgAltText={"Italika Photo"} >
@@ -21,10 +19,6 @@ function HomeContent(props) {
           alt={"Italika Photo"}
         />
         <p>El motor de tu vida</p>
-      </SimplePanel>
-
-      <SimplePanel backgroundColor="#020f2b" color="#fff">
-        <h2>Test</h2>
       </SimplePanel>
       
       <style jsx global>{`
