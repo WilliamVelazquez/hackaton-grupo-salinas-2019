@@ -1,0 +1,39 @@
+{
+  "name": "hackaton-grupo-salinas-2019",
+  "version": "1.0.0",
+  "description": "Italika Progressive Web App for Customers developed with NextJS",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "export": "next build && next export",
+    "start": "NODE_ENV=production node server.js",
+    "next:dev": "next",
+    "next:start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WilliamVelazquez/hackaton-grupo-salinas-2019"
+  },
+  "keywords": [
+    "WilliamVelazquez",
+    "react",
+    "NextJs",
+    "PWA",
+    "HackatonGrupoSalinas2019",
+    "DevPhantom"
+  ],
+  "author": "William Velazquez <william.velazquez.a@gmail.com> (https://twitter.com/WilliamVlazquez)",
+  "bugs": {
+    "url": "https://github.com/WilliamVelazquez/hackaton-grupo-salinas-2019/issues"
+  },
+  "homepage": "https://github.com/WilliamVelazquez/hackaton-grupo-salinas-2019#readme",
+  "dependencies": {
+    "next": "7.0.0",
+    "next-offline": "3.3.7",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-ga": "2.5.3"
+  },
+  "license": "ISC"
+}
