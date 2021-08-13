@@ -29,7 +29,7 @@
   },
   "homepage": "https://github.com/WilliamVelazquez/hackaton-grupo-salinas-2019#readme",
   "dependencies": {
-    "next": "7.0.0",
+    "next": "11.1.0",
     "next-offline": "3.3.7",
     "react": "16.8.4",
     "react-dom": "16.8.4",
